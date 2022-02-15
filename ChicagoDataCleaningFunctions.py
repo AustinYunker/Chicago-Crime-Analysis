@@ -1,6 +1,7 @@
 """
 This file contains all the functions used to clean the data for the Chicago Analysis Project
 """
+import pandas as pd
 
 def crime_type_cleaner(df):
     """
@@ -189,7 +190,7 @@ def crime_hour(df):
     returns: None
     
     """
-    df["Hour"] = pd.Categorical(df.loc[:, "date"].dt.hour, categories = range(1, 13))
+    df["Hour"] = pd.Categorical(df.loc[:, "date"].dt.hour, categories = range(0, 24))
     
 def community_cleaner(df):
     """
