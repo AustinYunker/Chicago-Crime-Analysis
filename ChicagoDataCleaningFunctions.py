@@ -178,7 +178,7 @@ def crime_month(df):
     returns: None
     
     """
-    df["Month"] = df.loc[:, "date"].dt.month
+    df["Month"] = pd.Categorical(df.loc[:, "date"].dt.month, categories=range(1,13))
     
 def crime_hour(df):
     """
@@ -189,7 +189,7 @@ def crime_hour(df):
     returns: None
     
     """
-    df["Hour"] = df.loc[:, "date"].dt.hour
+    df["Hour"] = pd.Categorical(df.loc[:, "date"].dt.hour, categories = range(1, 13))
     
 def community_cleaner(df):
     """
