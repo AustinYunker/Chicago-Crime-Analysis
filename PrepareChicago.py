@@ -1,3 +1,4 @@
+from sklearn.preprocessing import OneHotEncoder
 def prepare_chicago_features(df, attribs):
     """
     This function is just a convenient wrapper around the ColumnTransformer method for OneHotEncoding categorical features
