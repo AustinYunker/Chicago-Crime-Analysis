@@ -35,9 +35,9 @@ The data came from Google BigQuery's public data sources. I intended to explore 
     * After you'll need to change to project id string used in the fetch chicago data function.
 4. Data processing/transformation scripts/modules are kept in this repository.
 
-## Featured Notebooks/Analysis/Deliverables
-* [Data Cleaning Notebook](https://github.com/AustinYunker/Chicago-Crime-Analysis/blob/main/Data%20Cleaning%20and%20Exploration.ipynb)
-* [Data Visualization Notebook](https://github.com/AustinYunker/Chicago-Crime-Analysis/blob/main/Data%20Visualization.ipynb)
+## Featured Notebooks
+* [Data Cleaning](https://github.com/AustinYunker/Chicago-Crime-Analysis/blob/main/Data%20Cleaning%20and%20Exploration.ipynb)
+* [Data Visualization](https://github.com/AustinYunker/Chicago-Crime-Analysis/blob/main/Data%20Visualization.ipynb)
 * [Traditional Models](https://github.com/AustinYunker/Chicago-Crime-Analysis/blob/main/Chicago%20Models%20Part%201.ipynb)
 * [Deep Learning Models](https://github.com/AustinYunker/Chicago-Crime-Analysis/blob/main/Chicago%20Models%20Part%202.ipynb)
 * [Productionizing the Models](https://github.com/AustinYunker/Chicago-Crime-Analysis/blob/main/Productionize%20Models.ipynb)
@@ -45,3 +45,6 @@ The data came from Google BigQuery's public data sources. I intended to explore 
 
 ## Contact
 * Feel free to contact me with any questions or if you are interested in contributing!
+
+## Acknowledgements 
+* This style of README was adopted from Rocio Ng and the original template can be found [here](https://github.com/sfbrigade/data-science-wg/blob/master/dswg_project_resources/Project-README-template.md)
